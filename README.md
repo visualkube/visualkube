@@ -14,7 +14,7 @@ Deploying new applications and / or releasing new versions for existing ones sho
 VisualKube is: 
 1. Fun and Easy to use. Agile teams can use it to deploy applications. 
 
-2. Portable. Can be deployed on any Kubernetes cluster* 
+2. Portable. Can be deployed on existing Kubernetes clusters
 
 3. Reliable. It integrates with existing cloud native technologies like Istio and Prometheus elimination painful integrations and custom tooling so that each user does not need to be and expert in the details. 
 
