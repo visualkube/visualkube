@@ -3,6 +3,52 @@
 	padding: 20px;
 	font-size: 30px;
 	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header .auth {
+	display: flex;
+	align-items: center;
+}
+
+.header .auth .git-service-wrap {
+	display: flex;
+	align-items: center;
+	margin: 0px 20px;
+	font-size: 20px;
+}
+
+.header .auth .git-service-wrap .git-service {
+	border: 1px solid white;
+	border-radius: 30px;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    width: 130px;
+	position: relative;
+    z-index: 2;
+}
+
+.header .auth .git-service-wrap .git-service.hub {
+    background: #000000;
+    width: 160px;
+}
+
+.header .auth .git-service-wrap .git-service.lab {
+    background: #e65328;
+}
+
+.header .auth .git-service-wrap .git-logout {
+	border: 1px solid white;
+    border-radius: 0px 30px 30px 0px;
+    padding: 15px 12px 15px 26px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #2b2b7c;
+    margin-left: -20px;
 }
 
 .content {
